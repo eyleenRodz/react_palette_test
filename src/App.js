@@ -7,25 +7,10 @@ function App() {
   const { data, loading, error } = usePalette(img)
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
       <section>
-        
-      <div style={{ backgroundColor: data.vibrant , color: 'white', }}>
-        Text with the vibrant color
-      </div>
+        <div style={{ backgroundColor: data.vibrant , color: 'white', }}>
+          Text with the vibrant color
+        </div>
       </section>
     </div>
   );
