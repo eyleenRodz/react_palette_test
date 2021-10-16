@@ -6,6 +6,15 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+### `npm run predeploy`
+
+Rexecute npm run build to compile the project
+
+### `npm run deploy`
+
+Publish the app in github pages creating a gh-page branch.
+Open [published project](https://eyleenRodz.github.io/react_palette_test) to view it in the browser.
+
 ### `npm start`
 
 Runs the app in the development mode.\
